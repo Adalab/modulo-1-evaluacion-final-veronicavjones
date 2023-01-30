@@ -14,6 +14,23 @@
     font-size : 30px;
 }
 
+.titulo-1{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.titulo-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+}
+
 .hero{
     background-image: url(./assets/images/cover.jpeg);
     background-size: cover;
@@ -22,12 +39,14 @@
 }
 
 .main{
+    
+
     font-family:'Roboto Slab';
     font-size: 30px;
     margin-left: 18px;
 }
 
-.titulo-1{ 
+.slogan{ 
     color: #f26002;
     font-family: Roboto-Regular;
     font-size: 14px;
